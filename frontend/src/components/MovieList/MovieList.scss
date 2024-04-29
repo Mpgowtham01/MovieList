@@ -1,0 +1,146 @@
+.grid_div {
+  margin-top: 7% !important;
+  padding: 20px;
+}
+
+.grid_div .card_component {
+  box-shadow: 0 0 32px -10px hsla(0, 0%, 4%, 0.199);
+  transition: transform 0.3s ease;
+}
+
+.grid_div .card_component:hover {
+  transform: scale(1.1);
+}
+
+.grid_div img {
+  width: 310px;
+  height: 250px;
+}
+
+.grid_div h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.grid_div h3 span {
+  color: gray;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.grid_div p {
+  color: black;
+}
+
+.grid_div p span {
+  font-weight: 700;
+  color: green;
+}
+
+.grid_div .imdb {
+  margin-left: 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+  font-weight: 700;
+  background-color: gray;
+}
+
+.grid_div .relesedOn {
+  font-size: 15px;
+  color: #000000b8;
+  font-weight: 700;
+}
+
+.grid_div .length {
+  margin-left: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+.grid_div .overview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin-top: 10px;
+}
+
+.grid_div .imdbRow {
+  display: flex;
+}
+
+.grid_div .director {
+  display: flex;
+  align-items: center;
+}
+
+.grid_div .imdbimage {
+  width: 80px;
+  height: 50px;
+  margin-left: 13px;
+}
+
+.grid_div .imdbrating {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  position: relative;
+  right: 10px;
+  font-size: 18px;
+}
+
+.grid_div .imdbrating1 {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+
+.grid_div .staring {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.grid_div .staring span {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+.grid_div span {
+  color: gray;
+}
+
+.grid_div h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  height: 10vh;
+}
+
+.grid_div li {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.grid_div .button_MovieList button {
+  width: 100%;
+  background: #1dbf73;
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 25px 0px 10px 0px;
+}
+.grid_div .input_tag {
+  input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}

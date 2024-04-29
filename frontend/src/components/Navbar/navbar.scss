@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Poppins:wght@400;500;600&display=swap");
+
+.css-1uwgr7b-MuiTypography-root {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  text-align: center;
+  color: white;
+  font-family: poppins !important;
+}
+.navbar_header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+
+  max-height: 65px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: none !important;
+  color: #eeffffe4;
+  z-index: 2;
+  box-shadow: 1px 1px 5px 2px black;
+}
+.navbar_headers {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  max-height: 65px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    rgb(15, 32, 39),
+    rgb(32, 58, 67),
+    rgb(44, 83, 100)
+  );
+  color: #eeffffe4;
+  z-index: 2;
+  box-shadow: 1px 1px 5px 2px black;
+}
+.custom-navbar-scroll {
+  background: linear-gradient(
+    to right,
+    rgb(15, 32, 39),
+    rgb(32, 58, 67),
+    rgb(44, 83, 100)
+  );
+}
+.navbar_body {
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100vw;
+  padding: 0px 40px;
+  margin: 0 auto;
+}
+.sub_menu_li {
+  text-decoration: none !important;
+}
+.link_header {
+  color: white;
+  font-family: cursive;
+  font-size: 23px;
+}
+.link_header:hover {
+  color: white;
+}
